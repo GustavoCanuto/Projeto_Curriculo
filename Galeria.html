@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="pt-Br">
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Galeria</title>
+
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <meta name="description" content="Site com Curriculo, galeria e formulario para contato">
+   
+    
+    
+</head>
+    
+
+<body>
+    
+    <header>
+         <script >
+        function openNav() //script de abrir a sidebar 
+            {
+                document.getElementById("mySidenav").style.width = "250px"; 
+                //pega o sidenav e aumenta a largura para parecer que está abrindo
+            }
+            function closeNav() { //script de fechar a sidebar
+                document.getElementById("mySidenav").style.width = "0";
+                //pega o sidenav e reduz a largura para parecer que está fechando
+            }
+    </script>
+    <span class="button" onclick="openNav()"><img src="images/menu.png" width="50" height="50" alt="menu"></span><!--botão de abrir a sidebar-->
+    <div id="mySidenav" class="sidenav"> <!--cria a sidebar como uma nova divisão -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><!--botão para fechar a sidebar-->
+        <!--botões que levam para partes especificas do site-->
+        <nav>
+          <a href="index.html">Curriculo</a>
+          <a href="Galeria.html">Galeria</a>
+          <a href="formulario.html">Contato</a>
+        </nav>
+    </div>
+</header>
+
+  <main class = "imagens">  
+ 
+    <div class="dentroimagens">
+    <h1 style ="text-align: center;"> Galeria</h1>
+      <br>
+      <br>
+      <div class = "galeria">
+
+                     <img src =images/homem1.jpg width="400" height="250" alt="foto1">
+                     <img src =images/homem2.jpg width="400" height="250" alt="foto2">
+               
+                     <img src =images/homem3.jpg width="400" height="250" alt="foto3">
+                     <img src =images/homem4.jpg width="400" height="250" alt="foto4">
+               
+                     <img src =images/homem5.jpg width="400" height="250" alt="foto5">
+                     <img src =images/homem6.jpg width="400" height="250" alt="foto6">
+               
+                     <img src =images/homem7.jpg width="400" height="250" alt="foto7">
+                     <img src =images/homem8.jpg width="400" height="250" alt="foto8">
+
+
+      </div>
+      
+    </div>
+      <br>
+      <br>
+      
+      <iframe width="810" height="475"
+            src="https://www.youtube.com/embed/NBTfn8ZnwTA">
+        </iframe>
+        <br>
+      <br>
+      <div style="text-align: center;">
+    <cite >
+
+        Imagens retiradas de https://br.depositphotos.com/stock-photos/homem-gen%C3%A9rico.html 
+ 
+      </cite>
+       </div>
+      
+   
+   
+  </main>
+  
+<footer>
+    <p style ="text-align: center;">Copyright @ 2023 Desenvolvimento de Software Multiplataforma - FATEC OSASCO</p>
+    <p style ="text-align: center;">Website desenvolvido por Grupo Pink</p>
+
+</footer>
+
+</body>
+</html>

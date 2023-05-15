@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html lang="pt-Br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Curriculo</title>
+
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <meta name="description" content="Site com Curriculo, galeria e formulario para contato">
+    
+  
+    <!--botão de abrir a sidebar-->
+</head> 
+
+<body>
+    
+<header>
+      <script >
+        function openNav() //script de abrir a sidebar 
+        {
+            document.getElementById("mySidenav").style.width = "250px"; 
+            //pega o sidenav e aumenta a largura para parecer que está abrindo
+        }
+        function closeNav() { //script de fechar a sidebar
+            document.getElementById("mySidenav").style.width = "0";
+            //pega o sidenav e reduz a largura para parecer que está fechando
+        }
+    </script>
+    
+    <span class="button" onclick="openNav()"><img src="images/menu.png" width="50" height="50" alt="twiiter"></span>
+    <div id="mySidenav" class="sidenav"> <!--cria a sidebar como uma nova divisão -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><!--botão para fechar a sidebar-->
+        <!--botões que levam para partes especificas do site-->
+        <nav>
+          <a href="index.html">Curriculo</a>
+          <a href="Galeria.html">Galeria</a>
+          <a href="formulario.html">Contato</a>
+        </nav>
+    </div>
+</header>
+      
+<main class="curriculo">
+
+        
+    <div  class="bloco">
+      
+        <section class= "fotoNome" >
+            
+            <img src="images/perfil.png" alt="perfil" >
+
+        
+            <h2> Eduardo Perreira Silva Santos </h2>
+        
+        
+        </section>
+
+    </div>
+
+    <div class="bloco">
+
+        <section class="DadosPessoais">
+        <!-- endereço, data de animeno -->
+            <h2>Dados pessoais</h2>
+
+            <hr>
+    
+                <p> Data de nascimento: 21/01/2000 - 23 anos  </p>
+                <p>Cidade: São Paulo </p>
+                <p>Estado: Sp </p>
+                <p>Endereço: Rua Joana Oliveira Chaves - 586 </p>
+                <p>Bairro: Vivendas do Parque </p>
+                <p>CEP: 79044-014</p>
+        
+            </section>
+    </div>
+
+    <div class="bloco">
+
+        <section class="FormacaoAcademica" >
+        <!-- endereço, data de animeno -->
+            <h2>Formação Academica</h2>
+
+            <hr>
+                <ul>
+                    <li> Bacharel em Administração de Empresas - Unifesp  </li>
+                </ul>
+                     <p> <em>Conclusão:</em> 2020</p>
+            <br>
+                 <ul>
+                    <li> Tecnólogo em Redes Industriais - Fatec São Paulo  </li>
+                </ul>
+                    <p> <em>Conclusão:</em> 2015</p>
+            <br>
+                 <ul>
+                    <li> Técnico em eletroeletrônica - Senai Roberto Simonsen</li>
+                </ul>
+                    <p> <em>Conclusão:</em> 2010</p>
+            <br>
+                
+        
+        </section>
+    </div>
+
+
+    <div class="bloco">
+
+        <section class="ExperienciaProfissional">
+        <!-- endereço, data de animeno -->
+            <h2>Experiencia Profissional</h2>
+            <hr>
+                <ul>
+                        <li> Grupo Pão de açucar  </li>
+                </ul>
+                            <p> <em>Cargo:</em> Assistente Financeiro - Fevereiro de 2015 a Agosto de 2020</p>
+                            <p> <em>Funções desempenhadas:</em> Movimento de caixa, acompanhamento de estratos bancários, 
+                            auxilio ao fechamento do fluxo de caixa, auxilio a consolidação do balanço mensal 
+                            e composição do DRE.</p>
+                            
+            <br>
+                <ul>
+                        <li> Escola Monteiro Lobato </li>
+                </ul>
+                            <p> <em>Cargo:</em> Assistente Financeiro- Fevereiro de 2013 a Novembro 2014</p>
+                            <p><em> Funções desempenhadas:</em> Movimento de caixam acompanhamento de extratos bancários, 
+                                cabrança de inadimplentes.</p>                            
+            <br>
+                <ul>
+                        <li> Taulon Ltda - Filial Barra Shopping </li>
+                </ul>
+                            <p> <em>Cargo:</em> Vendedor - Julho de 2011 a janeiro de 2013</p>
+                            <p> <em>Funções desempenhadas:</em> Atendimento direto ao consumidor, negociação de valores,
+                                prazos, e condições de pagamento referente a venda.</p> 
+                            
+               
+
+    
+        </section>
+    </div>
+
+    <div class ="bloco">
+
+        <section class="InformacoesContato">
+        <!-- Utilizar icone linkdin insta twitter, e contatos  ficara dentro da class Nome foto-->
+            <h2>Informação de contato</h2>
+
+            <hr>
+                <div class="Contato">
+
+                    <p class="tituloContato"> Telefones para contato </p>
+                    <p><a href="tel:+551140028922">(11) 4002-8922</a> </p>
+                    <p><a href="tel:+5511980022289">(11) 98002-2289 </a></p>
+        
+                </div>
+
+                <div class="Contato">
+
+                    <p class="tituloContato"> Emails para contato </p>
+
+                    <p><a href="mailto:Eduardo.Santo@gmail.com"> Eduardo.Santo@gmail.com </a> </p>
+                    <p><a href="mailto:Eduardo.Silva@hotmail.com"> Eduardo.Silva@hotmail.com </a></p>
+
+                </div>
+   
+      
+                <div class="Contato"> 
+
+                    <p class="tituloContato"> Redes Sociais </p>
+   
+                     <p>
+                        <a  href="https://br.linkedin.com/" target="_blank" > <img src="images/linkdin.png" alt="linkdin" ></a>
+                        <a  href="https://twitter.com/home" target="_blank"> <img src="images/twitter.png" alt="twiiter"   ></a>
+                        <a  href="https://www.instagram.com/" target="_blank"> <img src="images/instragram.png" alt="instragam"></a>
+                    </p>
+
+                </div>
+
+
+         </section>
+
+    </div>
+
+</main>
+
+<footer>
+    
+    <p style ="text-align: center;">Copyright @ 2023 Desenvolvimento de Software Multiplataforma - FATEC OSASCO</p>
+    <p style ="text-align: center;">Website desenvolvido por Grupo Pink</p>
+
+  </footer>
+  
+</body>
+
+</html>

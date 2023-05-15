@@ -1,0 +1,84 @@
+
+
+/* configurações do sidebar */
+.sidenav {
+  height: 100%; /* altura */
+  width: 0; /* largura(é mudada pelo javascript */
+  position: fixed; /*fixo */
+  z-index: 1; /* Sempre em cima dos outros objetos do site */
+  top: 0; /* no topo do site */
+  left: 0;/*colado a esquerda*/
+  background-color: #111; /* fundo preto*/
+  overflow-x: hidden; /* não rola com o site */
+  transition: 0.5s; /* transição entre abrir e fechar */
+}
+
+/* configurações dos links do sidebar */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+
+/* quando o mouse fica em cima do link ele fica mais claro */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/*configurações do botão de fechar */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* configurações para dispositivos diferentes */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.formulario{
+  border: 1px solid black;
+  max-width: 825px; /* Tamanho Maximo */
+  width: 95%; /* Margem referente ao tamanho maximo */
+  margin: 40px auto; /*centralizar curriculo 40px e centralizado largura*/
+  font-family:Arial ; /*Tipo font*/
+}
+
+.dentro{
+  width: 95%; /* sua largura vai ser 95%   */
+  margin: 25px auto;/*10px em cima em baixo e por lados automatico (vai centralizar automaticamente) */
+}
+
+body{
+
+  background-color:rgb(230, 230, 230); /* Fundo Pagina */
+
+}
+
+footer{
+  background-color: pink; /*cor do rodapé*/
+
+}
+.button
+{
+  position:fixed;
+  
+}
+
+.textoFooter p{
+  margin: 0; /* espaçamento externo elemneto zerando*/
+  padding: 0; /* espaçamento interno elemento zerando*/
+   margin-bottom: 5px;
+  margin-left: 50px;
+  font-size: 18px;
+}
+

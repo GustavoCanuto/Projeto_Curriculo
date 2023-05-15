@@ -1,0 +1,153 @@
+*{
+    /* Normalização para não ocorrer alteração em diferentes navegadores*/
+    margin: 0; /* espaçamento externo elemneto*/
+    padding: 0; /* espaçamento interno elemento*/
+    box-sizing: border-box; /* Tamanho leverá em conta a borda, faz o width sera
+     soma do conteudo+borda e o padding*/
+    font-size:100%; /* tamanho padrao da font no navegador  */
+}
+
+/* Estilo foto perfil  */
+.fotoNome img{
+    
+    border-radius: 100%; /* Cria borda redonda  */
+    width: 200px; /* Largura  */
+    height: 190px;  /* Altura  */
+    border: 1px solid black; /* Borda em volta */
+}
+
+ body{
+
+    background-color:rgb(230, 230, 230); /* Fundo Pagina */
+
+ }
+
+ /* Estilo tamanho e forma curriculo */
+.curriculo{
+    border: 1px solid black;
+    max-width: 825px; /* Tamanho Maximo */
+    width: 95%; /* Margem referente ao tamanho maximo */
+    margin: 40px auto; /*centralizar curriculo 40px e centralizado largura*/
+    font-family:Arial ; /*Tipo font*/
+}
+.imagens{
+    
+    max-width: 825px; /* Tamanho Maximo */
+    width: 95%; /* Margem referente ao tamanho maximo */
+    margin: 40px auto; /*centralizar imagens 40px e centralizado largura*/
+    font-family:Arial ; /*Tipo font*/
+}
+.bloco {
+   
+    width: 95%; /* sua largura vai ser 95%   */
+    margin: 25px auto;/*10px em cima em baixo e por lados automatico (vai centralizar automaticamente) */
+       
+}
+
+
+/* Linha, distancia das letras   */
+hr{
+    margin-bottom: 15px; /* 15px para baixo   */
+    margin-top: 10px; /* 10px para cima   */
+}
+
+/* configurações do sidebar */
+.sidenav {
+    height: 100%; /* altura */
+    width: 0; /* largura(é mudada pelo javascript */
+    position: fixed; /*fixo */
+    z-index: 1; /* Sempre em cima dos outros objetos do site */
+    top: 0; /* no topo do site */
+    left: 0;/*colado a esquerda*/
+    background-color: #111; /* fundo preto*/
+    overflow-x: hidden; /* o texto esconde com o menu */
+    transition: 0.5s; /* transição entre abrir e fechar */
+  }
+  
+  /* configurações dos links do sidebar */
+  .sidenav a {
+    padding: 8px 8px 8px 32px; /* centraliza o texto dentro do menu*/
+    text-decoration: none;/* tira a linha de baixo do texto do menu que é comum a links*/   
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;/* transição da cor*/
+  }
+  
+  /* quando o mouse fica em cima do link ele fica mais claro */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /*configurações do botão de fechar */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+
+  /* configurações para dispositivos diferentes */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.fotoNome{
+    display:flex; /* torna os elementos da class inline */
+    align-items: center; /* centralizar elementos */
+    margin-bottom: 50px;
+}
+
+/* Estio h2 nome foto   */
+.fotoNome h2{
+    font-size: 38px; /* Tamanho fonte   */
+    margin-left: 25px;
+    
+}
+
+/* Estio restante dos h2   */
+div h2{
+    
+    font-size: 24px; /* tamanho letra h2*/
+     
+}
+
+/* Estio paragrafo e lista   */
+ p, ul li{
+    /* word-wrap: break-word; */
+    
+    margin-bottom: 5px;
+    margin-left: 50px;
+    text-align: justify; /* Texto justificado */
+    font-size: 18px;
+    
+}
+
+
+.Contato{
+    
+    display: inline-block; /* torna a class inline */
+    vertical-align: top; /* alinaha por cima */
+  
+}
+.button
+{
+    position:fixed;
+    
+}
+.tituloContato{
+
+    margin-bottom: 15px; /* Os titulo Contato vai ter 15px de espaço do texto */
+    
+}
+footer{
+    background-color: pink; /*cor do rodapé*/
+
+}
+h1
+{
+    font-size: 40px; /* tamanho letra h1*/
+}
